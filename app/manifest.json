@@ -17,7 +17,11 @@
       ],
       "css": [
         "styles/monokai.css"
-      ]
+      ],
+      "js": [
+        "scripts/contentscript.js"
+      ],
+      "run_at":"document_end"
     }
   ],
   "permissions": [

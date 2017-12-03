@@ -55,5 +55,9 @@
     "webpack": "3.x.x",
     "webpack-stream": "3.x.x",
     "yargs": "^8.x.x"
+  },
+  "dependencies": {
+    "highlight.js": "^9.12.0",
+    "jquery": "^3.2.1"
   }
 }
