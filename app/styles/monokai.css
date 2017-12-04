@@ -147,6 +147,14 @@ body .refract-container .addition pre.source {
     background: #1f3e22;
 }
 
+body .refract-container .conflict .gutter {
+    background: #FDE192;
+}
+
+body .refract-container .conflict pre.source {
+    background: rgb(138, 111, 37);
+}
+
 body .refract-container .deletion pre.source,
 body .refract-container .addition pre.source {
     color: #fff;
