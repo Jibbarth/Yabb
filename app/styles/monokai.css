@@ -2,7 +2,7 @@ body code[class*="language-"],
 body pre[class*="language-"],
 body .refract-content-container pre.source {
     color: #f8f8f2;
-    font-family: Consolas,Menlo,"Liberation Mono",Courier,monospace;
+    font-family: Consolas, Menlo, "Liberation Mono",Courier,monospace;
     font-size: 12px;
     height: 18px;
     line-height: 18px;
@@ -150,7 +150,7 @@ body .refract-container .addition pre.source {
 body .refract-container .deletion pre.source,
 body .refract-container .addition pre.source {
     color: #fff;
-    font-family: Consolas, Menlo, "Andale Mono", "Ubuntu Mono", monospace;
+    font-family: Consolas, Menlo, "Liberation Mono", Courier, monospace;
     font-size: 12px;
 }
 
