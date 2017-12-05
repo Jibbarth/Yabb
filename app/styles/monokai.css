@@ -155,6 +155,14 @@ body .refract-container .conflict pre.source {
     background: rgb(138, 111, 37);
 }
 
+body .refract-container .gutter:target {
+    background: rgb(146, 201, 253);
+}
+
+body .refract-container .gutter:target + .source {
+    background: rgb(34, 93, 121);
+}
+
 body .refract-container .deletion pre.source,
 body .refract-container .addition pre.source {
     color: #fff;
