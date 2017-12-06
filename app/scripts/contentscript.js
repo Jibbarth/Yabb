@@ -25,5 +25,11 @@ waitRender('.diff-container').then(() => {
  */
 function guessLanguage(block)
 {
-    return $(block).parents('.iterable-item').data('identifier').split('.').pop();
+    var language = $(block).parents('.bb-udiff').data('identifier').split('.').pop();
+
+    if (language == 'phtml') {
+        language = 'php';
+    }
+
+    return language;
 }
