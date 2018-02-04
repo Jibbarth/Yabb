@@ -62,6 +62,10 @@ function cleanBlock(block){
     var sourceBlock = block.querySelector('pre.source');
 
     if (null != sourceBlock) {
+        // Don't highlight on patch
+        if (language == 'patch') {
+            return;
+        }
         sourceBlock.classList.add(language);
         hljs.highlightBlock(sourceBlock);
     }
