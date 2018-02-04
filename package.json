@@ -1,7 +1,7 @@
 {
-  "name": "Yet-Another-Bitbucket-Beautifier",
+  "name": "yet-another-bitbucket-beautifier",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Improve display of code reviewed in BitBucket",
   "scripts": {
     "start": "npm run dev:chrome",
