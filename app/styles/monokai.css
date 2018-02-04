@@ -181,7 +181,6 @@ body .refract-container.word-diff:not(.disable-word-diff) .deletion pre.source d
 body .refract-container.word-diff:not(.disable-word-diff) .addition pre.source ins,
 body .refract-container.word-diff:not(.disable-word-diff) .deletion pre.source del {
     color: #fff;
-    padding: 0 3px;
 }
 
 body .hljs {
