@@ -2,8 +2,8 @@
 //import 'chromereload/devonly'
 import elementReady from 'element-ready';
 
+const dom = require('./dom-browse.js');
 const hljs = require('highlight.js');
-const $ = require("jquery")
 
 init();
 
@@ -79,7 +79,8 @@ function cleanBlock(block){
  */
 function guessLanguage(block)
 {
-    var language = $(block).parents('.bb-udiff').data('identifier').split('.').pop();
+    var parent = dom.getParent(block, '.bb-udiff');
+    var language = parent.dataset.identifier.split('.').pop();
 
     if (language == 'phtml') {
         language = 'php';
